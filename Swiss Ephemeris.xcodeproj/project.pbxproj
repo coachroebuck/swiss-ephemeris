@@ -1,0 +1,1090 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40A3B34D18BED8A700B92FDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A3B34C18BED8A700B92FDF /* Foundation.framework */; };
+		40A3B35218BED8A700B92FDF /* Swiss_Ephemeris.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B35118BED8A700B92FDF /* Swiss_Ephemeris.h */; };
+		40A3B35418BED8A700B92FDF /* Swiss_Ephemeris.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A3B35318BED8A700B92FDF /* Swiss_Ephemeris.m */; };
+		40A3B35B18BED8A700B92FDF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A3B35A18BED8A700B92FDF /* XCTest.framework */; };
+		40A3B35C18BED8A700B92FDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A3B34C18BED8A700B92FDF /* Foundation.framework */; };
+		40A3B36118BED8A700B92FDF /* libSwiss Ephemeris.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A3B34918BED8A700B92FDF /* libSwiss Ephemeris.a */; };
+		40A3B36718BED8A700B92FDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40A3B36518BED8A700B92FDF /* InfoPlist.strings */; };
+		40A3B36918BED8A700B92FDF /* Swiss_EphemerisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A3B36818BED8A700B92FDF /* Swiss_EphemerisTests.m */; };
+		40A3B39118BED8E700B92FDF /* swecl.c in Sources */ = {isa = PBXBuildFile; fileRef = 40A3B37B18BED8E700B92FDF /* swecl.c */; };
+		40A3B39218BED8E700B92FDF /* swedate.c in Sources */ = {isa = PBXBuildFile; fileRef = 40A3B37C18BED8E700B92FDF /* swedate.c */; };
+		40A3B39318BED8E700B92FDF /* swehel.c in Sources */ = {isa = PBXBuildFile; fileRef = 40A3B37F18BED8E700B92FDF /* swehel.c */; };
+		40A3B39418BED8E700B92FDF /* swehouse.c in Sources */ = {isa = PBXBuildFile; fileRef = 40A3B38018BED8E700B92FDF /* swehouse.c */; };
+		40A3B39518BED8E700B92FDF /* swejpl.c in Sources */ = {isa = PBXBuildFile; fileRef = 40A3B38218BED8E700B92FDF /* swejpl.c */; };
+		40A3B39618BED8E700B92FDF /* swemmoon.c in Sources */ = {isa = PBXBuildFile; fileRef = 40A3B38418BED8E700B92FDF /* swemmoon.c */; };
+		40A3B39718BED8E700B92FDF /* swemplan.c in Sources */ = {isa = PBXBuildFile; fileRef = 40A3B38518BED8E700B92FDF /* swemplan.c */; };
+		40A3B39818BED8E700B92FDF /* swepcalc.c in Sources */ = {isa = PBXBuildFile; fileRef = 40A3B38918BED8E700B92FDF /* swepcalc.c */; };
+		40A3B39918BED8E700B92FDF /* swepdate.c in Sources */ = {isa = PBXBuildFile; fileRef = 40A3B38B18BED8E700B92FDF /* swepdate.c */; };
+		40A3B39A18BED8E700B92FDF /* sweph.c in Sources */ = {isa = PBXBuildFile; fileRef = 40A3B38C18BED8E700B92FDF /* sweph.c */; };
+		40A3B39B18BED8E700B92FDF /* swephlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 40A3B38F18BED8E700B92FDF /* swephlib.c */; };
+		40A3B39D18BEDFF700B92FDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A3B39C18BEDFF700B92FDF /* UIKit.framework */; };
+		40E1A14B18C24C5000AEC268 /* swephexp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38E18BED8E700B92FDF /* swephexp.h */; };
+		40E1A1C118C257DC00AEC268 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A3B34C18BED8A700B92FDF /* Foundation.framework */; };
+		40E1A1C618C257DC00AEC268 /* SwissEphemeris_Device.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40E1A1C518C257DC00AEC268 /* SwissEphemeris_Device.h */; };
+		40E1A1C818C257DC00AEC268 /* SwissEphemeris_Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E1A1C718C257DC00AEC268 /* SwissEphemeris_Device.m */; };
+		40E1A1CE18C257DC00AEC268 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A3B35A18BED8A700B92FDF /* XCTest.framework */; };
+		40E1A1CF18C257DC00AEC268 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A3B34C18BED8A700B92FDF /* Foundation.framework */; };
+		40E1A1D018C257DC00AEC268 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A3B39C18BEDFF700B92FDF /* UIKit.framework */; };
+		40E1A1D318C257DC00AEC268 /* libSwissEphemeris_iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E1A1C018C257DC00AEC268 /* libSwissEphemeris_iPhone.a */; };
+		40E1A1D918C257DC00AEC268 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40E1A1D718C257DC00AEC268 /* InfoPlist.strings */; };
+		40E1A1DB18C257DC00AEC268 /* SwissEphemeris_DeviceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E1A1DA18C257DC00AEC268 /* SwissEphemeris_DeviceTests.m */; };
+		40E1A1E718C2583700AEC268 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A3B34C18BED8A700B92FDF /* Foundation.framework */; };
+		40E1A1EC18C2583700AEC268 /* SwissEphemeris_Simulator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40E1A1EB18C2583700AEC268 /* SwissEphemeris_Simulator.h */; };
+		40E1A1EE18C2583700AEC268 /* SwissEphemeris_Simulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E1A1ED18C2583700AEC268 /* SwissEphemeris_Simulator.m */; };
+		40E1A1F418C2583700AEC268 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A3B35A18BED8A700B92FDF /* XCTest.framework */; };
+		40E1A1F518C2583700AEC268 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A3B34C18BED8A700B92FDF /* Foundation.framework */; };
+		40E1A1F618C2583700AEC268 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A3B39C18BEDFF700B92FDF /* UIKit.framework */; };
+		40E1A1F918C2583700AEC268 /* libSwissEphemeris_Simulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E1A1E618C2583700AEC268 /* libSwissEphemeris_Simulator.a */; };
+		40E1A1FF18C2583700AEC268 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40E1A1FD18C2583700AEC268 /* InfoPlist.strings */; };
+		40E1A20118C2583700AEC268 /* SwissEphemeris_SimulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E1A20018C2583700AEC268 /* SwissEphemeris_SimulatorTests.m */; };
+		40E1A21218C2A28300AEC268 /* swedate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B37D18BED8E700B92FDF /* swedate.h */; };
+		40E1A21318C2A28300AEC268 /* swedll.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B37E18BED8E700B92FDF /* swedll.h */; };
+		40E1A21418C2A28300AEC268 /* swehouse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38118BED8E700B92FDF /* swehouse.h */; };
+		40E1A21518C2A28300AEC268 /* swejpl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38318BED8E700B92FDF /* swejpl.h */; };
+		40E1A21618C2A28300AEC268 /* swemptab.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38618BED8E700B92FDF /* swemptab.h */; };
+		40E1A21718C2A28300AEC268 /* swenut2000a.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38718BED8E700B92FDF /* swenut2000a.h */; };
+		40E1A21818C2A28300AEC268 /* sweodef.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38818BED8E700B92FDF /* sweodef.h */; };
+		40E1A21918C2A28300AEC268 /* swepcalc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38A18BED8E700B92FDF /* swepcalc.h */; };
+		40E1A21A18C2A28300AEC268 /* sweph.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38D18BED8E700B92FDF /* sweph.h */; };
+		40E1A21B18C2A28300AEC268 /* swephexp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38E18BED8E700B92FDF /* swephexp.h */; };
+		40E1A21C18C2A28300AEC268 /* swephlib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B39018BED8E700B92FDF /* swephlib.h */; };
+		40E1A21D18C2A29600AEC268 /* swedate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B37D18BED8E700B92FDF /* swedate.h */; };
+		40E1A21E18C2A29600AEC268 /* swedll.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B37E18BED8E700B92FDF /* swedll.h */; };
+		40E1A21F18C2A29600AEC268 /* swehouse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38118BED8E700B92FDF /* swehouse.h */; };
+		40E1A22018C2A29600AEC268 /* swejpl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38318BED8E700B92FDF /* swejpl.h */; };
+		40E1A22118C2A29600AEC268 /* swemptab.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38618BED8E700B92FDF /* swemptab.h */; };
+		40E1A22218C2A29600AEC268 /* swenut2000a.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38718BED8E700B92FDF /* swenut2000a.h */; };
+		40E1A22318C2A29600AEC268 /* sweodef.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38818BED8E700B92FDF /* sweodef.h */; };
+		40E1A22418C2A29600AEC268 /* swepcalc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38A18BED8E700B92FDF /* swepcalc.h */; };
+		40E1A22518C2A29600AEC268 /* sweph.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38D18BED8E700B92FDF /* sweph.h */; };
+		40E1A22618C2A29600AEC268 /* swephexp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38E18BED8E700B92FDF /* swephexp.h */; };
+		40E1A22718C2A29600AEC268 /* swephlib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B39018BED8E700B92FDF /* swephlib.h */; };
+		40E1A22E18C2A36900AEC268 /* swedate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B37D18BED8E700B92FDF /* swedate.h */; };
+		40E1A22F18C2A36900AEC268 /* swedll.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B37E18BED8E700B92FDF /* swedll.h */; };
+		40E1A23018C2A36900AEC268 /* swehouse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38118BED8E700B92FDF /* swehouse.h */; };
+		40E1A23118C2A36900AEC268 /* swejpl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38318BED8E700B92FDF /* swejpl.h */; };
+		40E1A23218C2A36900AEC268 /* swemptab.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38618BED8E700B92FDF /* swemptab.h */; };
+		40E1A23318C2A36900AEC268 /* swenut2000a.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38718BED8E700B92FDF /* swenut2000a.h */; };
+		40E1A23418C2A36900AEC268 /* sweodef.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38818BED8E700B92FDF /* sweodef.h */; };
+		40E1A23518C2A36900AEC268 /* swepcalc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38A18BED8E700B92FDF /* swepcalc.h */; };
+		40E1A23618C2A36900AEC268 /* sweph.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B38D18BED8E700B92FDF /* sweph.h */; };
+		40E1A23718C2A36900AEC268 /* swephlib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40A3B39018BED8E700B92FDF /* swephlib.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40A3B35F18BED8A700B92FDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A3B34118BED8A700B92FDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40A3B34818BED8A700B92FDF;
+			remoteInfo = "Swiss Ephemeris";
+		};
+		40E1A1D118C257DC00AEC268 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A3B34118BED8A700B92FDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E1A1BF18C257DC00AEC268;
+			remoteInfo = SwissEphemeris_Device;
+		};
+		40E1A1F718C2583700AEC268 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A3B34118BED8A700B92FDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E1A1E518C2583700AEC268;
+			remoteInfo = SwissEphemeris_Simulator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		40A3B34718BED8A700B92FDF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				40E1A22E18C2A36900AEC268 /* swedate.h in CopyFiles */,
+				40E1A22F18C2A36900AEC268 /* swedll.h in CopyFiles */,
+				40E1A23018C2A36900AEC268 /* swehouse.h in CopyFiles */,
+				40E1A23118C2A36900AEC268 /* swejpl.h in CopyFiles */,
+				40E1A23218C2A36900AEC268 /* swemptab.h in CopyFiles */,
+				40E1A23318C2A36900AEC268 /* swenut2000a.h in CopyFiles */,
+				40E1A23418C2A36900AEC268 /* sweodef.h in CopyFiles */,
+				40E1A23518C2A36900AEC268 /* swepcalc.h in CopyFiles */,
+				40E1A23618C2A36900AEC268 /* sweph.h in CopyFiles */,
+				40E1A23718C2A36900AEC268 /* swephlib.h in CopyFiles */,
+				40A3B35218BED8A700B92FDF /* Swiss_Ephemeris.h in CopyFiles */,
+				40E1A14B18C24C5000AEC268 /* swephexp.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1A1BE18C257DC00AEC268 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				40E1A21218C2A28300AEC268 /* swedate.h in CopyFiles */,
+				40E1A21318C2A28300AEC268 /* swedll.h in CopyFiles */,
+				40E1A21418C2A28300AEC268 /* swehouse.h in CopyFiles */,
+				40E1A21518C2A28300AEC268 /* swejpl.h in CopyFiles */,
+				40E1A21618C2A28300AEC268 /* swemptab.h in CopyFiles */,
+				40E1A21718C2A28300AEC268 /* swenut2000a.h in CopyFiles */,
+				40E1A21818C2A28300AEC268 /* sweodef.h in CopyFiles */,
+				40E1A21918C2A28300AEC268 /* swepcalc.h in CopyFiles */,
+				40E1A21A18C2A28300AEC268 /* sweph.h in CopyFiles */,
+				40E1A21B18C2A28300AEC268 /* swephexp.h in CopyFiles */,
+				40E1A21C18C2A28300AEC268 /* swephlib.h in CopyFiles */,
+				40E1A1C618C257DC00AEC268 /* SwissEphemeris_Device.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1A1E418C2583700AEC268 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				40E1A21D18C2A29600AEC268 /* swedate.h in CopyFiles */,
+				40E1A21E18C2A29600AEC268 /* swedll.h in CopyFiles */,
+				40E1A21F18C2A29600AEC268 /* swehouse.h in CopyFiles */,
+				40E1A22018C2A29600AEC268 /* swejpl.h in CopyFiles */,
+				40E1A22118C2A29600AEC268 /* swemptab.h in CopyFiles */,
+				40E1A22218C2A29600AEC268 /* swenut2000a.h in CopyFiles */,
+				40E1A22318C2A29600AEC268 /* sweodef.h in CopyFiles */,
+				40E1A22418C2A29600AEC268 /* swepcalc.h in CopyFiles */,
+				40E1A22518C2A29600AEC268 /* sweph.h in CopyFiles */,
+				40E1A22618C2A29600AEC268 /* swephexp.h in CopyFiles */,
+				40E1A22718C2A29600AEC268 /* swephlib.h in CopyFiles */,
+				40E1A1EC18C2583700AEC268 /* SwissEphemeris_Simulator.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		40A3B34918BED8A700B92FDF /* libSwiss Ephemeris.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libSwiss Ephemeris.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A3B34C18BED8A700B92FDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		40A3B35018BED8A700B92FDF /* Swiss Ephemeris-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swiss Ephemeris-Prefix.pch"; sourceTree = "<group>"; };
+		40A3B35118BED8A700B92FDF /* Swiss_Ephemeris.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swiss_Ephemeris.h; sourceTree = "<group>"; };
+		40A3B35318BED8A700B92FDF /* Swiss_Ephemeris.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Swiss_Ephemeris.m; sourceTree = "<group>"; };
+		40A3B35918BED8A700B92FDF /* Swiss EphemerisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swiss EphemerisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A3B35A18BED8A700B92FDF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		40A3B36418BED8A700B92FDF /* Swiss EphemerisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Swiss EphemerisTests-Info.plist"; sourceTree = "<group>"; };
+		40A3B36618BED8A700B92FDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		40A3B36818BED8A700B92FDF /* Swiss_EphemerisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Swiss_EphemerisTests.m; sourceTree = "<group>"; };
+		40A3B37318BED8E700B92FDF /* seas_18.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seas_18.se1; sourceTree = "<group>"; };
+		40A3B37418BED8E700B92FDF /* semo_18.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semo_18.se1; sourceTree = "<group>"; };
+		40A3B37518BED8E700B92FDF /* sepl_18.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sepl_18.se1; sourceTree = "<group>"; };
+		40A3B37718BED8E700B92FDF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		40A3B37818BED8E700B92FDF /* sefstars.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sefstars.txt; sourceTree = "<group>"; };
+		40A3B37918BED8E700B92FDF /* seleapsec.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = seleapsec.txt; sourceTree = "<group>"; };
+		40A3B37A18BED8E700B92FDF /* seorbel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = seorbel.txt; sourceTree = "<group>"; };
+		40A3B37B18BED8E700B92FDF /* swecl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swecl.c; sourceTree = "<group>"; };
+		40A3B37C18BED8E700B92FDF /* swedate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swedate.c; sourceTree = "<group>"; };
+		40A3B37D18BED8E700B92FDF /* swedate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swedate.h; sourceTree = "<group>"; };
+		40A3B37E18BED8E700B92FDF /* swedll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swedll.h; sourceTree = "<group>"; };
+		40A3B37F18BED8E700B92FDF /* swehel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swehel.c; sourceTree = "<group>"; };
+		40A3B38018BED8E700B92FDF /* swehouse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swehouse.c; sourceTree = "<group>"; };
+		40A3B38118BED8E700B92FDF /* swehouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swehouse.h; sourceTree = "<group>"; };
+		40A3B38218BED8E700B92FDF /* swejpl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swejpl.c; sourceTree = "<group>"; };
+		40A3B38318BED8E700B92FDF /* swejpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swejpl.h; sourceTree = "<group>"; };
+		40A3B38418BED8E700B92FDF /* swemmoon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swemmoon.c; sourceTree = "<group>"; };
+		40A3B38518BED8E700B92FDF /* swemplan.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swemplan.c; sourceTree = "<group>"; };
+		40A3B38618BED8E700B92FDF /* swemptab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swemptab.h; sourceTree = "<group>"; };
+		40A3B38718BED8E700B92FDF /* swenut2000a.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swenut2000a.h; sourceTree = "<group>"; };
+		40A3B38818BED8E700B92FDF /* sweodef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sweodef.h; sourceTree = "<group>"; };
+		40A3B38918BED8E700B92FDF /* swepcalc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swepcalc.c; sourceTree = "<group>"; };
+		40A3B38A18BED8E700B92FDF /* swepcalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swepcalc.h; sourceTree = "<group>"; };
+		40A3B38B18BED8E700B92FDF /* swepdate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swepdate.c; sourceTree = "<group>"; };
+		40A3B38C18BED8E700B92FDF /* sweph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sweph.c; sourceTree = "<group>"; };
+		40A3B38D18BED8E700B92FDF /* sweph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sweph.h; sourceTree = "<group>"; };
+		40A3B38E18BED8E700B92FDF /* swephexp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swephexp.h; sourceTree = "<group>"; };
+		40A3B38F18BED8E700B92FDF /* swephlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swephlib.c; sourceTree = "<group>"; };
+		40A3B39018BED8E700B92FDF /* swephlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swephlib.h; sourceTree = "<group>"; };
+		40A3B39C18BEDFF700B92FDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		40E1A1C018C257DC00AEC268 /* libSwissEphemeris_iPhone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwissEphemeris_iPhone.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E1A1C418C257DC00AEC268 /* SwissEphemeris_Device-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwissEphemeris_Device-Prefix.pch"; sourceTree = "<group>"; };
+		40E1A1C518C257DC00AEC268 /* SwissEphemeris_Device.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwissEphemeris_Device.h; sourceTree = "<group>"; };
+		40E1A1C718C257DC00AEC268 /* SwissEphemeris_Device.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwissEphemeris_Device.m; sourceTree = "<group>"; };
+		40E1A1CD18C257DC00AEC268 /* SwissEphemeris_DeviceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwissEphemeris_DeviceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E1A1D618C257DC00AEC268 /* SwissEphemeris_DeviceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwissEphemeris_DeviceTests-Info.plist"; sourceTree = "<group>"; };
+		40E1A1D818C257DC00AEC268 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		40E1A1DA18C257DC00AEC268 /* SwissEphemeris_DeviceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwissEphemeris_DeviceTests.m; sourceTree = "<group>"; };
+		40E1A1E618C2583700AEC268 /* libSwissEphemeris_Simulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwissEphemeris_Simulator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E1A1EA18C2583700AEC268 /* SwissEphemeris_Simulator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwissEphemeris_Simulator-Prefix.pch"; sourceTree = "<group>"; };
+		40E1A1EB18C2583700AEC268 /* SwissEphemeris_Simulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwissEphemeris_Simulator.h; sourceTree = "<group>"; };
+		40E1A1ED18C2583700AEC268 /* SwissEphemeris_Simulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwissEphemeris_Simulator.m; sourceTree = "<group>"; };
+		40E1A1F318C2583700AEC268 /* SwissEphemeris_SimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwissEphemeris_SimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E1A1FC18C2583700AEC268 /* SwissEphemeris_SimulatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwissEphemeris_SimulatorTests-Info.plist"; sourceTree = "<group>"; };
+		40E1A1FE18C2583700AEC268 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		40E1A20018C2583700AEC268 /* SwissEphemeris_SimulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwissEphemeris_SimulatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40A3B34618BED8A700B92FDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A3B34D18BED8A700B92FDF /* Foundation.framework in Frameworks */,
+				40A3B39D18BEDFF700B92FDF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A3B35618BED8A700B92FDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A3B35B18BED8A700B92FDF /* XCTest.framework in Frameworks */,
+				40A3B36118BED8A700B92FDF /* libSwiss Ephemeris.a in Frameworks */,
+				40A3B35C18BED8A700B92FDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1A1BD18C257DC00AEC268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1A1C118C257DC00AEC268 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1A1CA18C257DC00AEC268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1A1CE18C257DC00AEC268 /* XCTest.framework in Frameworks */,
+				40E1A1D018C257DC00AEC268 /* UIKit.framework in Frameworks */,
+				40E1A1D318C257DC00AEC268 /* libSwissEphemeris_iPhone.a in Frameworks */,
+				40E1A1CF18C257DC00AEC268 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1A1E318C2583700AEC268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1A1E718C2583700AEC268 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1A1F018C2583700AEC268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1A1F418C2583700AEC268 /* XCTest.framework in Frameworks */,
+				40E1A1F918C2583700AEC268 /* libSwissEphemeris_Simulator.a in Frameworks */,
+				40E1A1F618C2583700AEC268 /* UIKit.framework in Frameworks */,
+				40E1A1F518C2583700AEC268 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40A3B34018BED8A700B92FDF = {
+			isa = PBXGroup;
+			children = (
+				40A3B34E18BED8A700B92FDF /* Swiss Ephemeris */,
+				40A3B36218BED8A700B92FDF /* Swiss EphemerisTests */,
+				40E1A1C218C257DC00AEC268 /* SwissEphemeris_Device */,
+				40E1A1D418C257DC00AEC268 /* SwissEphemeris_DeviceTests */,
+				40E1A1E818C2583700AEC268 /* SwissEphemeris_Simulator */,
+				40E1A1FA18C2583700AEC268 /* SwissEphemeris_SimulatorTests */,
+				40A3B34B18BED8A700B92FDF /* Frameworks */,
+				40A3B34A18BED8A700B92FDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40A3B34A18BED8A700B92FDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40A3B34918BED8A700B92FDF /* libSwiss Ephemeris.a */,
+				40A3B35918BED8A700B92FDF /* Swiss EphemerisTests.xctest */,
+				40E1A1C018C257DC00AEC268 /* libSwissEphemeris_iPhone.a */,
+				40E1A1CD18C257DC00AEC268 /* SwissEphemeris_DeviceTests.xctest */,
+				40E1A1E618C2583700AEC268 /* libSwissEphemeris_Simulator.a */,
+				40E1A1F318C2583700AEC268 /* SwissEphemeris_SimulatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40A3B34B18BED8A700B92FDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40A3B39C18BEDFF700B92FDF /* UIKit.framework */,
+				40A3B34C18BED8A700B92FDF /* Foundation.framework */,
+				40A3B35A18BED8A700B92FDF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40A3B34E18BED8A700B92FDF /* Swiss Ephemeris */ = {
+			isa = PBXGroup;
+			children = (
+				40A3B37218BED8E700B92FDF /* _ephe */,
+				40A3B37618BED8E700B92FDF /* _sweph */,
+				40A3B35118BED8A700B92FDF /* Swiss_Ephemeris.h */,
+				40A3B35318BED8A700B92FDF /* Swiss_Ephemeris.m */,
+				40A3B34F18BED8A700B92FDF /* Supporting Files */,
+			);
+			path = "Swiss Ephemeris";
+			sourceTree = "<group>";
+		};
+		40A3B34F18BED8A700B92FDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40A3B35018BED8A700B92FDF /* Swiss Ephemeris-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40A3B36218BED8A700B92FDF /* Swiss EphemerisTests */ = {
+			isa = PBXGroup;
+			children = (
+				40A3B36818BED8A700B92FDF /* Swiss_EphemerisTests.m */,
+				40A3B36318BED8A700B92FDF /* Supporting Files */,
+			);
+			path = "Swiss EphemerisTests";
+			sourceTree = "<group>";
+		};
+		40A3B36318BED8A700B92FDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40A3B36418BED8A700B92FDF /* Swiss EphemerisTests-Info.plist */,
+				40A3B36518BED8A700B92FDF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40A3B37218BED8E700B92FDF /* _ephe */ = {
+			isa = PBXGroup;
+			children = (
+				40A3B37318BED8E700B92FDF /* seas_18.se1 */,
+				40A3B37418BED8E700B92FDF /* semo_18.se1 */,
+				40A3B37518BED8E700B92FDF /* sepl_18.se1 */,
+			);
+			path = _ephe;
+			sourceTree = "<group>";
+		};
+		40A3B37618BED8E700B92FDF /* _sweph */ = {
+			isa = PBXGroup;
+			children = (
+				40A3B37718BED8E700B92FDF /* LICENSE */,
+				40A3B37818BED8E700B92FDF /* sefstars.txt */,
+				40A3B37918BED8E700B92FDF /* seleapsec.txt */,
+				40A3B37A18BED8E700B92FDF /* seorbel.txt */,
+				40A3B37B18BED8E700B92FDF /* swecl.c */,
+				40A3B37C18BED8E700B92FDF /* swedate.c */,
+				40A3B37D18BED8E700B92FDF /* swedate.h */,
+				40A3B37E18BED8E700B92FDF /* swedll.h */,
+				40A3B37F18BED8E700B92FDF /* swehel.c */,
+				40A3B38018BED8E700B92FDF /* swehouse.c */,
+				40A3B38118BED8E700B92FDF /* swehouse.h */,
+				40A3B38218BED8E700B92FDF /* swejpl.c */,
+				40A3B38318BED8E700B92FDF /* swejpl.h */,
+				40A3B38418BED8E700B92FDF /* swemmoon.c */,
+				40A3B38518BED8E700B92FDF /* swemplan.c */,
+				40A3B38618BED8E700B92FDF /* swemptab.h */,
+				40A3B38718BED8E700B92FDF /* swenut2000a.h */,
+				40A3B38818BED8E700B92FDF /* sweodef.h */,
+				40A3B38918BED8E700B92FDF /* swepcalc.c */,
+				40A3B38A18BED8E700B92FDF /* swepcalc.h */,
+				40A3B38B18BED8E700B92FDF /* swepdate.c */,
+				40A3B38C18BED8E700B92FDF /* sweph.c */,
+				40A3B38D18BED8E700B92FDF /* sweph.h */,
+				40A3B38E18BED8E700B92FDF /* swephexp.h */,
+				40A3B38F18BED8E700B92FDF /* swephlib.c */,
+				40A3B39018BED8E700B92FDF /* swephlib.h */,
+			);
+			path = _sweph;
+			sourceTree = "<group>";
+		};
+		40E1A1C218C257DC00AEC268 /* SwissEphemeris_Device */ = {
+			isa = PBXGroup;
+			children = (
+				40E1A1C518C257DC00AEC268 /* SwissEphemeris_Device.h */,
+				40E1A1C718C257DC00AEC268 /* SwissEphemeris_Device.m */,
+				40E1A1C318C257DC00AEC268 /* Supporting Files */,
+			);
+			path = SwissEphemeris_Device;
+			sourceTree = "<group>";
+		};
+		40E1A1C318C257DC00AEC268 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40E1A1C418C257DC00AEC268 /* SwissEphemeris_Device-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40E1A1D418C257DC00AEC268 /* SwissEphemeris_DeviceTests */ = {
+			isa = PBXGroup;
+			children = (
+				40E1A1DA18C257DC00AEC268 /* SwissEphemeris_DeviceTests.m */,
+				40E1A1D518C257DC00AEC268 /* Supporting Files */,
+			);
+			path = SwissEphemeris_DeviceTests;
+			sourceTree = "<group>";
+		};
+		40E1A1D518C257DC00AEC268 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40E1A1D618C257DC00AEC268 /* SwissEphemeris_DeviceTests-Info.plist */,
+				40E1A1D718C257DC00AEC268 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40E1A1E818C2583700AEC268 /* SwissEphemeris_Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				40E1A1EB18C2583700AEC268 /* SwissEphemeris_Simulator.h */,
+				40E1A1ED18C2583700AEC268 /* SwissEphemeris_Simulator.m */,
+				40E1A1E918C2583700AEC268 /* Supporting Files */,
+			);
+			path = SwissEphemeris_Simulator;
+			sourceTree = "<group>";
+		};
+		40E1A1E918C2583700AEC268 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40E1A1EA18C2583700AEC268 /* SwissEphemeris_Simulator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40E1A1FA18C2583700AEC268 /* SwissEphemeris_SimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				40E1A20018C2583700AEC268 /* SwissEphemeris_SimulatorTests.m */,
+				40E1A1FB18C2583700AEC268 /* Supporting Files */,
+			);
+			path = SwissEphemeris_SimulatorTests;
+			sourceTree = "<group>";
+		};
+		40E1A1FB18C2583700AEC268 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40E1A1FC18C2583700AEC268 /* SwissEphemeris_SimulatorTests-Info.plist */,
+				40E1A1FD18C2583700AEC268 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40A3B34818BED8A700B92FDF /* Swiss Ephemeris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A3B36C18BED8A700B92FDF /* Build configuration list for PBXNativeTarget "Swiss Ephemeris" */;
+			buildPhases = (
+				40A3B34518BED8A700B92FDF /* Sources */,
+				40A3B34618BED8A700B92FDF /* Frameworks */,
+				40A3B34718BED8A700B92FDF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swiss Ephemeris";
+			productName = "Swiss Ephemeris";
+			productReference = 40A3B34918BED8A700B92FDF /* libSwiss Ephemeris.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		40A3B35818BED8A700B92FDF /* Swiss EphemerisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A3B36F18BED8A700B92FDF /* Build configuration list for PBXNativeTarget "Swiss EphemerisTests" */;
+			buildPhases = (
+				40A3B35518BED8A700B92FDF /* Sources */,
+				40A3B35618BED8A700B92FDF /* Frameworks */,
+				40A3B35718BED8A700B92FDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40A3B36018BED8A700B92FDF /* PBXTargetDependency */,
+			);
+			name = "Swiss EphemerisTests";
+			productName = "Swiss EphemerisTests";
+			productReference = 40A3B35918BED8A700B92FDF /* Swiss EphemerisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40E1A1BF18C257DC00AEC268 /* SwissEphemeris_iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E1A1DC18C257DC00AEC268 /* Build configuration list for PBXNativeTarget "SwissEphemeris_iPhone" */;
+			buildPhases = (
+				40E1A1BC18C257DC00AEC268 /* Sources */,
+				40E1A1BD18C257DC00AEC268 /* Frameworks */,
+				40E1A1BE18C257DC00AEC268 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwissEphemeris_iPhone;
+			productName = SwissEphemeris_Device;
+			productReference = 40E1A1C018C257DC00AEC268 /* libSwissEphemeris_iPhone.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		40E1A1CC18C257DC00AEC268 /* SwissEphemeris_DeviceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E1A1DF18C257DC00AEC268 /* Build configuration list for PBXNativeTarget "SwissEphemeris_DeviceTests" */;
+			buildPhases = (
+				40E1A1C918C257DC00AEC268 /* Sources */,
+				40E1A1CA18C257DC00AEC268 /* Frameworks */,
+				40E1A1CB18C257DC00AEC268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40E1A1D218C257DC00AEC268 /* PBXTargetDependency */,
+			);
+			name = SwissEphemeris_DeviceTests;
+			productName = SwissEphemeris_DeviceTests;
+			productReference = 40E1A1CD18C257DC00AEC268 /* SwissEphemeris_DeviceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40E1A1E518C2583700AEC268 /* SwissEphemeris_Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E1A20218C2583700AEC268 /* Build configuration list for PBXNativeTarget "SwissEphemeris_Simulator" */;
+			buildPhases = (
+				40E1A1E218C2583700AEC268 /* Sources */,
+				40E1A1E318C2583700AEC268 /* Frameworks */,
+				40E1A1E418C2583700AEC268 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwissEphemeris_Simulator;
+			productName = SwissEphemeris_Simulator;
+			productReference = 40E1A1E618C2583700AEC268 /* libSwissEphemeris_Simulator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		40E1A1F218C2583700AEC268 /* SwissEphemeris_SimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E1A20518C2583700AEC268 /* Build configuration list for PBXNativeTarget "SwissEphemeris_SimulatorTests" */;
+			buildPhases = (
+				40E1A1EF18C2583700AEC268 /* Sources */,
+				40E1A1F018C2583700AEC268 /* Frameworks */,
+				40E1A1F118C2583700AEC268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40E1A1F818C2583700AEC268 /* PBXTargetDependency */,
+			);
+			name = SwissEphemeris_SimulatorTests;
+			productName = SwissEphemeris_SimulatorTests;
+			productReference = 40E1A1F318C2583700AEC268 /* SwissEphemeris_SimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40A3B34118BED8A700B92FDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Coach Roebuck";
+			};
+			buildConfigurationList = 40A3B34418BED8A700B92FDF /* Build configuration list for PBXProject "Swiss Ephemeris" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 40A3B34018BED8A700B92FDF;
+			productRefGroup = 40A3B34A18BED8A700B92FDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40A3B34818BED8A700B92FDF /* Swiss Ephemeris */,
+				40A3B35818BED8A700B92FDF /* Swiss EphemerisTests */,
+				40E1A1BF18C257DC00AEC268 /* SwissEphemeris_iPhone */,
+				40E1A1CC18C257DC00AEC268 /* SwissEphemeris_DeviceTests */,
+				40E1A1E518C2583700AEC268 /* SwissEphemeris_Simulator */,
+				40E1A1F218C2583700AEC268 /* SwissEphemeris_SimulatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40A3B35718BED8A700B92FDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A3B36718BED8A700B92FDF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1A1CB18C257DC00AEC268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1A1D918C257DC00AEC268 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1A1F118C2583700AEC268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1A1FF18C2583700AEC268 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40A3B34518BED8A700B92FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A3B39918BED8E700B92FDF /* swepdate.c in Sources */,
+				40A3B39518BED8E700B92FDF /* swejpl.c in Sources */,
+				40A3B39418BED8E700B92FDF /* swehouse.c in Sources */,
+				40A3B39718BED8E700B92FDF /* swemplan.c in Sources */,
+				40A3B39118BED8E700B92FDF /* swecl.c in Sources */,
+				40A3B39B18BED8E700B92FDF /* swephlib.c in Sources */,
+				40A3B39318BED8E700B92FDF /* swehel.c in Sources */,
+				40A3B39618BED8E700B92FDF /* swemmoon.c in Sources */,
+				40A3B39218BED8E700B92FDF /* swedate.c in Sources */,
+				40A3B39A18BED8E700B92FDF /* sweph.c in Sources */,
+				40A3B39818BED8E700B92FDF /* swepcalc.c in Sources */,
+				40A3B35418BED8A700B92FDF /* Swiss_Ephemeris.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A3B35518BED8A700B92FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A3B36918BED8A700B92FDF /* Swiss_EphemerisTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1A1BC18C257DC00AEC268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1A1C818C257DC00AEC268 /* SwissEphemeris_Device.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1A1C918C257DC00AEC268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1A1DB18C257DC00AEC268 /* SwissEphemeris_DeviceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1A1E218C2583700AEC268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1A1EE18C2583700AEC268 /* SwissEphemeris_Simulator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1A1EF18C2583700AEC268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1A20118C2583700AEC268 /* SwissEphemeris_SimulatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40A3B36018BED8A700B92FDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40A3B34818BED8A700B92FDF /* Swiss Ephemeris */;
+			targetProxy = 40A3B35F18BED8A700B92FDF /* PBXContainerItemProxy */;
+		};
+		40E1A1D218C257DC00AEC268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40E1A1BF18C257DC00AEC268 /* SwissEphemeris_iPhone */;
+			targetProxy = 40E1A1D118C257DC00AEC268 /* PBXContainerItemProxy */;
+		};
+		40E1A1F818C2583700AEC268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40E1A1E518C2583700AEC268 /* SwissEphemeris_Simulator */;
+			targetProxy = 40E1A1F718C2583700AEC268 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40A3B36518BED8A700B92FDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40A3B36618BED8A700B92FDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		40E1A1D718C257DC00AEC268 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40E1A1D818C257DC00AEC268 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		40E1A1FD18C2583700AEC268 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40E1A1FE18C2583700AEC268 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40A3B36A18BED8A700B92FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		40A3B36B18BED8A700B92FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		40A3B36D18BED8A700B92FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Swiss_Ephemeris.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swiss Ephemeris/Swiss Ephemeris-Prefix.pch";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		40A3B36E18BED8A700B92FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Swiss_Ephemeris.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swiss Ephemeris/Swiss Ephemeris-Prefix.pch";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		40A3B37018BED8A700B92FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swiss Ephemeris/Swiss Ephemeris-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swiss EphemerisTests/Swiss EphemerisTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		40A3B37118BED8A700B92FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swiss Ephemeris/Swiss Ephemeris-Prefix.pch";
+				INFOPLIST_FILE = "Swiss EphemerisTests/Swiss EphemerisTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		40E1A1DD18C257DC00AEC268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SwissEphemeris_Device.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwissEphemeris_Device/SwissEphemeris_Device-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		40E1A1DE18C257DC00AEC268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SwissEphemeris_Device.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwissEphemeris_Device/SwissEphemeris_Device-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		40E1A1E018C257DC00AEC268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwissEphemeris_Device/SwissEphemeris_Device-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SwissEphemeris_DeviceTests/SwissEphemeris_DeviceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		40E1A1E118C257DC00AEC268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwissEphemeris_Device/SwissEphemeris_Device-Prefix.pch";
+				INFOPLIST_FILE = "SwissEphemeris_DeviceTests/SwissEphemeris_DeviceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		40E1A20318C2583700AEC268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SwissEphemeris_Simulator.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwissEphemeris_Simulator/SwissEphemeris_Simulator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		40E1A20418C2583700AEC268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SwissEphemeris_Simulator.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwissEphemeris_Simulator/SwissEphemeris_Simulator-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		40E1A20618C2583700AEC268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwissEphemeris_Simulator/SwissEphemeris_Simulator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SwissEphemeris_SimulatorTests/SwissEphemeris_SimulatorTests-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		40E1A20718C2583700AEC268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwissEphemeris_Simulator/SwissEphemeris_Simulator-Prefix.pch";
+				INFOPLIST_FILE = "SwissEphemeris_SimulatorTests/SwissEphemeris_SimulatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40A3B34418BED8A700B92FDF /* Build configuration list for PBXProject "Swiss Ephemeris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A3B36A18BED8A700B92FDF /* Debug */,
+				40A3B36B18BED8A700B92FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A3B36C18BED8A700B92FDF /* Build configuration list for PBXNativeTarget "Swiss Ephemeris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A3B36D18BED8A700B92FDF /* Debug */,
+				40A3B36E18BED8A700B92FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A3B36F18BED8A700B92FDF /* Build configuration list for PBXNativeTarget "Swiss EphemerisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A3B37018BED8A700B92FDF /* Debug */,
+				40A3B37118BED8A700B92FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E1A1DC18C257DC00AEC268 /* Build configuration list for PBXNativeTarget "SwissEphemeris_iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E1A1DD18C257DC00AEC268 /* Debug */,
+				40E1A1DE18C257DC00AEC268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E1A1DF18C257DC00AEC268 /* Build configuration list for PBXNativeTarget "SwissEphemeris_DeviceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E1A1E018C257DC00AEC268 /* Debug */,
+				40E1A1E118C257DC00AEC268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E1A20218C2583700AEC268 /* Build configuration list for PBXNativeTarget "SwissEphemeris_Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E1A20318C2583700AEC268 /* Debug */,
+				40E1A20418C2583700AEC268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E1A20518C2583700AEC268 /* Build configuration list for PBXNativeTarget "SwissEphemeris_SimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E1A20618C2583700AEC268 /* Debug */,
+				40E1A20718C2583700AEC268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40A3B34118BED8A700B92FDF /* Project object */;
+}
